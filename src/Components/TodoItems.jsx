@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from 'react'
+import React, {  useState } from 'react'
 import { styled } from '@mui/material/styles';
 import Table from '@mui/material/Table';
 import TableBody from '@mui/material/TableBody';
@@ -24,7 +24,7 @@ const StyledTableCell = styled(TableCell)(({ theme }) => ({
 const TodoItems = ({setTodos,todos}) => {
 
 
-        const [sortedData,setSortedData] = useState([todos])
+        // const [sortedData,setSortedData] = useState([todos])
   
     
     //  console.log(sortedData,'sorted')
@@ -70,7 +70,7 @@ const TodoItems = ({setTodos,todos}) => {
 
 
 
-console.log(sortedData)
+
   return (
     < >
       <Box width={"70%"} margin={"auto"} mt={"20px"}>
